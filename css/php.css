@@ -1,0 +1,85 @@
+.banner{
+    margin:-10px;
+    padding-top: 5px;
+    background-color: aquamarine;
+    height: 250px;
+    width:100%;
+    border: solid aquamarine;
+    position: fixed;
+    color: white;
+    font-size: 50px;
+    z-index: -1;
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+}
+#a{
+    text-decoration: none;
+    color: white;
+}
+
+.body{
+    position: relative;
+    z-index: 10;
+}
+
+.start{
+    z-index: 10;
+    background-color: aqua;
+    width: 130px;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: 70px;
+    position: relative;
+    height: 60px;
+}
+.start:hover:{
+    cursor: pointer;
+    padding: 2px;
+    background-color: rgb(34, 248, 248);
+    position: relative;
+}
+.s{
+    z-index: 1;
+    background-color: white;
+    width: 125px;
+    text-align: center;
+    margin-left: 590px;
+    margin-top: -57px;
+    border: solid white;
+    height: 57px;
+    position: relative;
+}
+.body{
+    margin: 0px 20px;
+}
+.icons ion-icon{
+    color: rgb(8, 7, 7);
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+    margin-left: 100px;
+}
+.icons{
+    margin-left: 218px;
+}
+h2{
+    text-align: center;
+}
+.sb{
+    font-size: 20px;
+    line-height: .1;
+    width: 200px;
+    z-index: 20;
+    margin-top: -482px;
+    background-color: white;
+    padding: 10px;
+    margin-left: 1000px;
+    text-align: center;
+    border: solid rgb(243, 241, 241);
+
+}
+h6{
+    font-style: bold;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/reg_style.css">
+    <script src="js/reg.js"></script>
+</head>
+<body>
+    <h1>Registration</h1>
+    <form  action="#" onsubmit="return formValidation()">
+        <table class="tab">
+            <tr>
+                <td><label for="fname">First Name:</label></td>
+                <td><input type="text" name="firstname" id="ifname">
+                    <span id="efname"></span>
+                </td>
+
+            </tr>
+            <tr>
+                <td><label for="lname">Last Name:</label></td>
+                <td ><input type="text" name="lastname" id="ilname"> 
+                    <span id="elname"></span>
+                </td>
+                
+            </tr>
+            <tr>
+                <td><label for="mobile">Mobile:</label></td>
+                <td ><input type="text" name="mob" id="imob">
+                    <span id="emobile"></span>
+                </td>
+
+            </tr>
+         
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" name="password" id="ipass">
+                    <span id="epass"></span>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="cpassword">Confirm Password:</label></td>
+                <td><input type="password" name="password" id="icpass">
+                <span id="ecpass"></span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" id="sub-btn" name="submit-button" value="Submit" style="margin-left: 350px;">
+                </td>
+            </tr>
+            <tr>
+                <td> <div class="icons">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                </div></td>
+            </tr>
+        </table>
+    </form>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+</body>
+</html>

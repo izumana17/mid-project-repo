@@ -1,0 +1,41 @@
+.one{
+background-color: black;
+height: 650px;
+width: 100%;
+z-index: 1;
+}
+.logo{
+    align-items: center;
+    z-index: 5;
+    margin-left: 550px;
+    
+}
+.logo> img{
+    height: 150px;
+    width: 160px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: solid white;
+}
+.imgs{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    margin-top: 80px;
+}
+.p{
+    color: white;
+    font-weight: bold;
+    margin: 170px 10px;
+    text-align: center;
+}
+.h1{
+    text-align: center;
+}
+.size{
+ 
+}
+.img1{
+    border: solid white ;
+    height: 200px;
+}

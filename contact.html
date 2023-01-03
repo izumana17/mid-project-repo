@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<meta name="viewport" content="width=>, initial-scale=1.0"> -->
+    <script src="js/clock.js"></script>
+    <link rel="stylesheet" href="css/clock.css">
+    <title>Contact Us</title>
+    <style>
+        h1 {
+            color: rgb(114, 112, 109);
+        }
+
+        h2 {
+            color: rgb(95, 93, 90);
+            line-height: .5;
+        }
+
+        body {
+
+            font-family: sans-serif;
+            background-color: rgb(161, 196, 236);
+        }
+
+        p {
+            background-color: rgb(245, 237, 237);
+            color: rgb(58, 56, 53);
+            font-weight: bold;
+            padding: 30px 30px 30px 30px;
+            border: 2px solid rgb(245, 237, 237);
+            border-radius: 20px;
+            line-height: 2;
+
+        }
+
+        .main {
+            display: flex;
+            margin: 50px;
+        }
+
+        .m1 {
+            margin-left: 100px;
+            margin-top: 120px;
+            width: 590px;
+        }
+
+        .d {
+            display: inline;
+        }
+
+        .h {
+            top: 0px;
+        }
+        .m2{
+            margin-left: 100px;
+            border: solid rgb(245, 237, 237);
+            background-color: rgb(179, 210, 245);
+            padding: 30px;
+        }
+        .form{
+            color: white;
+            font-weight: bold;
+        }
+        .tb{
+            width: 500px;
+        }
+        .map{
+            margin: 0px 100px 100px 100px; 
+        }
+        #btn{
+            background-color: rgb(107, 175, 253);
+            color: white;
+            border: solid white;
+            border-radius: 6px;
+            padding: 5px;
+            margin-left: 260px;
+            margin-right: 0px;
+        }
+        #btn:hover {
+            padding: 8px;
+            background-color: white;
+            color: rgb(107, 175, 253);
+            border: solid rgb(107, 175, 253);
+            font-size: 15px;
+        }
+        .c{
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body onload="realtimeClock()">
+    <div class="main-container">
+        <div id="clock">
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="m1">
+            <h2 class="c">Contact</h2>
+            <p class="p">Leading University<br>Ragibnagar, South Surma, Sylhet-3112<br>Phone: 01313084499<br>Email: info@lus.ac.bd
+            </p>
+        </div>
+
+        <div class="m2">
+            <h1>Help</h1>
+
+            <form action="/action_page.php" class="form">
+                <h3>Name</h3>
+                
+                <input type="text" id="fname" name="fname" placeholder="Enter First Name">
+                <pre class="d">           </pre>
+                
+                <input type="text" id="lname" name="lname" placeholder="Enter Last Name"><br><br>
+                <label for="email">Email: </label><br> <br>
+                <input type="email" id="email" name="email" placeholder="Enter Email"> <br><br>
+                <hr>
+                <h2 class="h">Query</h2>
+                <textarea class="tb" name="message" rows="10" cols="30"></textarea><br>
+                <pre class="d">                                                              </pre>
+                <input id="btn" type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+
+   <div class="map">
+    <h1>Campus Location</h1>
+    <p><iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.837956228492!2d91.80271791452368!3d24.86938345102579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3751015addbec3b7%3A0x9e87b7be58b5f67e!2sLeading%20University!5e0!3m2!1sen!2sbd!4v1650289150876!5m2!1sen!2sbd"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        </div>
+
+</body>
+
+</html>
